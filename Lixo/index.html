@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Parágrafos</title>
+    <style>
+       .par{
+        min-height: 150px;
+        max-width: 275px;
+       }
+       .ilu{
+        min-height: 65px;
+       }
+       .emo{
+        max-height: 2px;
+       }
+       .tem{
+        font-size: 80px;
+       }
+       .Mc{
+        font-size: 40px
+       }
+       .vz{
+        font-size:25px
+       }
+       .mark{
+        background-color: rgb(107, 214, 107);
+       }
+       .butao{
+        background-color: brown;
+       }
+       .cit{
+        max-width: 150px;
+       }
+        
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Parágrafos e Quebras de Linha</h1> <input type="button" value="                                                                                                                     " title="NÃO ME APERTE" id="butao">
+    <hr>
+    <p class="par">Lorem, ipsum dolor sit amet consectetur  adipisicing elit. Voluptatem mollitia eius hic possimus, aut inventore eveniet esse sed sit soluta consequuntur vero facere consectetur excepturi est veniam minus ipsam autem.</p>
+    <p class="ilu"> Você conhece os iluminnati &Delta; ?</p>
+    <p class="emo"> Vamos adicionar alguns emoji:</p>
+    <p> &#x1F4A9; &#x1F4A9; &#x1F4A9; &#x1F4A9; &#x1F4A9; &#x1F4A9; &#x1F4A9; &#x1F4A9;</p>
+    <img src="./paisagem-500.jpg" alt="Paisagem com balões">
+    <hr>
+    <h1 class="tem">Formatações</h1>
+    <h2 class="Mc">1 Mais comuns</h2>
+    <h3 class="vz">1.1 Na leitura estudada</h3>
+    <h4> 1.1.1 Marca texto:</h4>
+    <p>Vou tentar marcar um texto aqui:<mark class="mark">esse texto está marcado</mark></p>
+    <h4> 1.1.2 Sublinhado</h4>
+    <p> Nesse texto tem uma <u>parte sublinhada</u></p>
+    <h4> 1.1.3 Riscado</h4>
+    <p> Uma parte desse texto está <del>riscado</del></p> 
+    <h3 class="vz">1.2 Leitura de escola</h3>
+    <p> ao quadrado (x<sup>2</sup>) e água (H<sub>2</sub>O)</p>
+    <h3 class="vz">1.3 Na leitura casual</h3>
+    <h4>1.3.1 Negrito</h4>
+    <p>Tem uma parte desse texto que vai estar em <strong>negrito pelo strong</strong> e outra parte que vai estar em <b>negrito pelo bolt</b></p>
+    <h4>1.3.2 Itálico</h4>
+    <p>Tem uma parte desse texto que vai estar em <i><strong>itálico pelo i</strong></i> e outra parte que vai estar em <em><strong>itálico pelo em</strong></em></p>
+    <h2 class="Mc">2 Mais aprofundadas</h2>
+    <h3 class="vz">2.1 Código</h3>
+    <p> vamos ver um exemplo de código:</p>
+    <pre>
+        <code>            
+        var FValor = document.getElementById('valor')
+        var vari = []
+        var c = 0
+        function Ver(){
+            x=Number(FValor.value)
+            if(ENumero(x) && vari.indexOf(FValor.value) === -1 ) {
+                var op=document.createElement('option')
+                op.textContent=`Valor ${FValor.value} adicionado`
+                var lista= document.getElementById('selval')
+                lista.appendChild(op)
+                vari [c] = FValor.value
+                c++
+                FValor.value =''
+                FValor.focus()
+                console.log(vari)
+            } else {
+                window.alert('[ERRO] Número inválido ou já presente na lista!')
+                FValor.value=''
+                FValor.focus()
+            }
+        }      
+        </code>
+    </pre>
+    <h3 class="vz">2.2 Citação</h3>
+    <p> certo homem disse:
+        <blockquote class="cit">
+            <strong>"</strong>Eu vou pegar minha marreta. Eu vou pegar minha marreta mermão. Eu vou dar tanta marretada nessa sua cara<strong>"</strong>
+            
+        </blockquote>
+        muito bonitas essas palavras né &#x1F62D
+    </p>
+    <h3 class="vz">2.3 Abreviação</h3>
+    <p> conheça o site <abbr title="Jehovah Witnesses" link="https://www.jw.org/Pt"><a href="https://www.jw.org/pt/" target="_blank" rel="external">Jw.org</a></abbr>!</p>
+    <hr>
+    <h1 class="tem"> Listas</h1>
+    <h2 class="Mc">1 Ordenadas</h2>
+    <ol>
+        <li>arroz</li>       
+        <li>batata</li>
+        <li>carne</li>
+    </ol>
+    <h2 class="Mc">2 Desordenadas</h2>
+    <ul> <!-- disc, circle e square(cradado)-->
+        <li>cabeça</li>
+        <li>olhos</li>
+        <li>ombro</li>
+        <li>joelho</li>
+        <li>pé</li>
+        <l>joelho</li>
+        <li>pé</li>
+    </ul>
+    <h2 class="Mc">3 De termos e definições </h2>
+    <dl>
+        <dt>Jogo</dt>
+        <dd>coisa que se joga</dd>
+        <dt>fezes</dt>
+        <dd>coisa que se defeca</dd>
+        <dt>comida</dt>
+        <dd>coisa que se come</dd>
+    </dl>
+    <hr>
+    <h1 class="tem">Âncoras</h1>
+    <h2 class="Mc">Externas</h2>
+    <h2 class="Mc">Internas</h2>
+    <h3 class="vz">Acesse este <a href="./pag002.html">link</a></h3>
+    <h2 class="Mc">Para download</h2>
+    <h3 class="vz">Baixe esse <a target="_blank" href="org.minist.pdf" download="org.minist.pdf">negócio aqui</a></h3>
+    <p> tem que botar dps do href: download="nome do arquivo" para ele de fato baixar</p>
+    
+    
+
+    <script>  
+        document.getElementById('butao').addEventListener('click', ()=>{
+            document.getElementById('titulo').innerHTML = 'COR DE BOXXTA________________QUEM MANDOU APERTAR?'
+            document.getElementById('titulo').classList.add('butao')
+        })
+    </script>
+    
+</body>
+</html>

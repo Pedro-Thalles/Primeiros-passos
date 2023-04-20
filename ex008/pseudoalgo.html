@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        div{
+            max-width: 500px;
+            min-height: 500px;
+            text-align: center;
+            background-color: green;
+            margin: auto;
+            margin-top: auto;
+        }
+        div:hover{
+            background-color: yellowgreen;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .pd{
+            display: block;
+        }
+        .pa{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div><p>div</p></div>
+    </main>
+    <h1>Exemplo de hover</h1>
+    <p id="parágrafo" onmouseenter="Entrar()" onmouseout="Sair()">Passe o mouse aqui</p>
+    <p class="pa" id="pd">Apareceu</p>
+     <script>
+        function Entrar(){
+            document.getElementById('pd').classList.add('pd')
+            document.getElementById('pd').classList.remove('pa')
+            document.getElementById('parágrafo').style.color='red'
+        }
+        function Sair(){
+            document.getElementById('pd').classList.remove('pd')
+            document.getElementById('pd').classList.add('pa')
+            document.getElementById('parágrafo').style.color='black'
+        }
+     </script> 
+</body>
+</html>

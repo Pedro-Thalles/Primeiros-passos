@@ -1,0 +1,69 @@
+body{
+    background-color: #E3966D;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+main{
+    margin: auto;
+    max-width: 500px;
+    margin-top:200px;
+    background-color:#399693 ;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.16);
+    border-style: solid;
+    border-width: 10px;
+}
+main div{
+    margin: auto;
+    text-align: center;
+    padding:0px;
+}
+main p{
+    margin:auto;
+    margin-top:10px ;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    font-weight: bolder;
+    border-style: solid;
+    max-width: 300px;
+    background-color:#6DE3DF ;
+    border-radius: 30px;
+    padding-bottom:40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.234) ;
+    color:black;
+}
+main input{
+    font-size: 40px;
+    margin:10px;
+    width:100px;
+}
+.Numero{
+    background-color: #DDFCFC;
+    border-radius: 20px;
+    transition: 0.15s ease-in-out;
+}
+.simbolo{
+    background-color: #99532B;
+    color:#DDFCFC;
+    border-radius: 20px;
+    transition: 0.15s ease-in-out;
+}
+.Resultado{
+    background-color: rgb(93, 93, 93);
+    color:#DDFCFC;
+    border-radius: 20px;
+    transition: 0.15s ease-in-out;
+}
+.Numero:hover{
+    background-color:#00FCFC;
+}
+.simbolo:hover{
+    background-color: #b5734d;
+}
+.Resultado:hover{
+    background-color: rgb(161, 161, 161);
+}

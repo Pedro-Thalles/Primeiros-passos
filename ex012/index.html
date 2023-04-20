@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora online</title>
+</head>
+<body>
+    <main>
+        <p class="local"></p>
+        <div><input class="simbolo" type="button" value="c" onclick="Limpar()">
+        <input class="simbolo" type="button" value="%" onclick="Porcentagem()">
+        <input class="simbolo" type="button" value=":" onclick="Divisão()"></div> 
+        <div><input class="Numero" type="button" value="7" onclick="Sete()">
+        <input class="Numero" type="button" value="8" onclick="Oito()">
+        <input class="Numero" type="button" value="9" onclick="Nove()">
+        <input class="simbolo" type="button" value="x" onclick="Multi()"></div> 
+        <div><input class="Numero" type="button" value="4" onclick="Quatro()">
+        <input class="Numero" type="button" value="5" onclick="Cinco()">
+        <input class="Numero" type="button" value="6" onclick="Seis()">
+        <input class="simbolo" type="button" value="-" onclick="Subtrai()"></div> 
+        <div><input class="Numero" type="button" value="1" onclick="Um()">
+        <input class="Numero" type="button" value="2" onclick="Dois()">
+        <input class="Numero" type="button" value="3" onclick="Três()">
+        <input class="simbolo" type="button" value="+" onclick="Soma()"></div> 
+        <div><input class="Numero" type="button" value="0" onclick="Zero()">
+        <input class="simbolo" type="button" value=",">
+        <input class="Resultado" type="button" value="=" onclick="Result()"></div> 
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

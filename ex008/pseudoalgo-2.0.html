@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        body{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .oi{
+            display:none;
+        }
+        div:hover > .olá{
+            color: brown;
+        }
+        div:hover > .oi{
+            display: block;
+        }        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de pseudoclasse</h1>    
+    <div>
+        <p class="olá">passe o mouse aqui</p>
+        <p class="oi">Texto escondido</p>   
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>
