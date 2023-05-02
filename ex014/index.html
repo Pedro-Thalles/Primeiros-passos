@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse:collapse;
+            border-radius: 50px;
+            text-align:center;          
+        }
+        table td{
+            border-style: solid;
+            border-color: black;
+            width:500px;
+            height:500px;
+            vertical-align:middle;
+        }
+        .azul{
+            background-color: blue;
+        }
+        .vermelho{
+            background-color: yellow;
+        }
+        .amarelo{
+            background-color: red;
+        }
+        .pink{
+            background-color: rgb(255, 124, 146);
+        }
+        th{
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudos de tabelas</h1>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr class="azul">
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
+        <tr class="amarelo">
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        <tr class="vermelho">
+            <td>D1</td>
+            <td>D2</td>
+            <td>D3</td>
+        </tr>
+        <tr>
+            <td class="pink">rosinha</td>
+        </tr>
+    </table>
+</body>
+</html>

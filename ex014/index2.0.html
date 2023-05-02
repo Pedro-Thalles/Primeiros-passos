@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo do tabela 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 70px;
+        }
+        table{
+            border-collapse: collapse;
+            position: relative;
+        }
+        td , th{
+            border-collapse: collapse;
+            border-style: solid;
+            width:600px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(128, 128, 128);
+            color: white;
+            border-style: solid;
+            border-color: black;
+        }
+        #fim{
+            color:white;
+            background-color: gray;
+            border-style: solid;
+            border-color: black;
+        }
+        caption{
+            background-color: rgba(128, 128, 128, 0.479);
+        }
+        tbody tr:nth-child(even){
+            background-color: rgba(128, 128, 128, 0.478);
+        }
+        thead > tr > th {
+            position: sticky;
+            top:-2px;
+            background-color: rgb(128, 128, 128);
+        }
+    </style>
+</head>
+<body>
+    <h1>Outra tabela</h1>
+    <table>
+        <caption><strong> Estados e populações do Brasil</strong></caption>
+        <thead>
+            <tr id="cabeca">
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Percentual</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sp</td>
+                <td>1.000.000</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <td>Rj</td>
+                <td>800.000</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>Ce</td>
+                <td>500.000</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Se</td>
+                <td>200.000</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Mg</td>
+                <td>200.000</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Sc</td>
+                <td>200.000</td>
+                <td>4%</td>
+            </tr>
+            <tr>
+                <td>Pe</td>
+                <td>200.000</td>
+                <td>4%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td id="fim"><strong>3.100.000</strong> </td>
+                <td id="fim"><strong>76%</strong> </td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore culpa ad ut qui iure laboriosam suscipit ex doloremque magnam autem perspiciatis, repudiandae eius facilis possimus rerum molestias nesciunt neque? Id!Lorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet dolorem consequuntur numquam consectetur blanditiis nulla, excepturi doloribus pariatur at assumenda ducimus accusantium. Suscipit earum tempora eos ullam quasi dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut provident tempora alias excepturi ipsa possimus amet pariatur! Similique possimus in optio placeat ipsam voluptatem quis quod impedit adipisci perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, necessitatibus! Rem saepe maxime non libero officia fugiat mollitia excepturi ipsa optio quos similique corrupti voluptate a, inventore quae, nihil sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nisi suscipit illo tenetur eveniet? Qui hic sequi non debitis deleniti repellat incidunt, maiores maxime inventore, amet, itaque accusantium repudiandae blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore adipisci nostrum eos assumenda nesciunt quod quas sed possimus sit? Blanditiis error enim debitis recusandae iure voluptatibus molestiae animi sed? Ipsam?
+    </p>
+</body>
+</html>
