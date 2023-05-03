@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Tabela 4</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+        }
+        table{
+            border-collapse: collapse;
+            margin:auto;
+            text-align: center;
+        }
+        table td, th{
+            border-style: solid;
+            border-color: black;
+            padding-left:30px;
+            padding-right:30px;
+        }
+        col.Cnome , col.Cidade{
+            background-color: purple;
+            color: white;
+        }
+        col.Csexo , col.Cprof{
+            background-color: aqua;
+            color:white;
+        }
+        #branco{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="Cnome">
+            <col class="Csexo">
+            <col class="Cidade">
+            <col class="Cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="branco">Ana</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td id="branco">Claudio</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Não dá pra mudar o color da coluna &#x1F921 &#x1F921 &#x1F921 &#x1F921</p>
+    <p>Somente a cor &#x1F921 &#x1F921 &#x1F921 &#x1F921</p>
+</body>
+</html>
