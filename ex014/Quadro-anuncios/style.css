@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-bottom: 80px;
+    color:white;
+    background-color: #C00002;
+    text-align: center;
+    font-size: 20px;
+}
+div{
+    margin: auto;
+}
+caption{
+    background-color: #153661;
+    color: white;
+    padding:4px;
+}
+td , th{
+    border-style: solid;
+    text-align: center;
+    width:100px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    
+}
+.dia{
+    width:40px;
+    font-weight: bolder;
+}
+table{
+    border-collapse: collapse;
+    margin:auto;
+}
+thead{
+    background-color: #93B4D7;
+}
+tbody tr:nth-child(even){
+    background-color: #C8D9ED;
+}
