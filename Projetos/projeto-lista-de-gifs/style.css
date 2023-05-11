@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#908F8E ;
+}
+header{
+    margin-top:20px;
+}
+.botaotrocatema{
+    background-color:#908F8E ;
+    border-style: none; 
+    margin-left:885px;
+
+}
+.tema{
+    width:55px;
+   
+}
+.logo{
+    width:55px;
+    margin-left:0px; 
+}
+.container{
+    max-width: 1000px;
+    margin:auto;
+}
+.listagifs{
+    max-width:1000px ;
+    margin:auto;
+}
+.listagifs li{
+    display: inline-block;
+    width:170px;
+    margin:30px;
+    background-color: #D7E2EC;
+    border-radius: 15px;
+    padding:5px;
+}
+.gif{
+    width:150px;
+}
+span{
+    text-align: center;
+    margin:auto;
+    max-width: 100px;
+}
