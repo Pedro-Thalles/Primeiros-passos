@@ -1,13 +1,15 @@
-gambiarra = 1
+
 
 function TrocaTema(){
-    console.log(gambiarra)
+    const gambiarra = 1
     if (gambiarra === 1) {
         document.querySelector('.tema').src="imagens/moon.png"
-        gambiarra === 0
-    } else if(gambiarra === 0){
-        document.querySelector('.tema').src="imagens/sun.png"
-        gambiarra === 1
+        document.body.style.background='#23272A'
+        document.querySelector('.botaotrocatema').classList.add('botaotrocatemaescuro')
+        document.querySelector('.tema').classList.remove('botaotrocatema')
+        document.querySelector('.listagifs').classList.add('listagifsescuro')
+        document.querySelector('.listagifs').classList.remove('listagifs')
     }
 }
+
 
